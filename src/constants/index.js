@@ -39,32 +39,27 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Projects",
     url: "#features",
   },
   {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
     title: "Roadmap",
     url: "#roadmap",
   },
   {
-    id: "4",
+    id: "2",
+    title: "Teams",
+    url: "#teams",
+  },
+  {
+    id: "3",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "3",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -78,9 +73,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Collaboration and Communication",
+  "Enterprise Software Solutions",
+  "Business Intelligence and Analytics",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,51 +89,51 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Foundation and Awareness",
+    text: "Establish the organization’s core values, vision, and mission. Conduct environmental awareness campaigns and build initial partnerships with local NGOs and communities.",
+    date: "Januari 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Branding and Marketing Strategy",
+    text: "Create a strong brand identity and implement digital marketing strategies to grow the organization’s visibility on social media and other platforms.",
+    date: "Februari 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Program Launch and Early Projects",
+    text: "Start small-scale projects and formalize the organization’s operations.",
+    date: "Januari 2025",
+    status: "planned",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Growth and Scaling",
+    text: "Expand projects and increase the organization’s impact on a larger scale. Strengthen the organization’s influence by forming strategic partnerships. Using big data and AI for better future",
+    date: "coming soon",
+    status: "planned",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Our software simplifies complex tasks with a user-friendly interface while maintaining enterprise-grade security.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Solution & integration",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "User Friendly",
   },
   {
     id: "2",
@@ -205,41 +200,41 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
+// export const pricing = [
+//   {
+//     id: "0",
+//     title: "Basic",
+//     description: "AI chatbot, personalized recommendations",
+//     price: "0",
+//     features: [
+//       "An AI chatbot that can understand your queries",
+//       "Personalized recommendations based on your preferences",
+//       "Ability to explore the app and its features without any cost",
+//     ],
+//   },
+//   {
+//     id: "1",
+//     title: "Premium",
+//     description: "Advanced AI chatbot, priority support, analytics dashboard",
+//     price: "9.99",
+//     features: [
+//       "An advanced AI chatbot that can understand complex queries",
+//       "An analytics dashboard to track your conversations",
+//       "Priority support to solve issues quickly",
+//     ],
+//   },
+//   {
+//     id: "2",
+//     title: "Enterprise",
+//     description: "Custom AI chatbot, advanced analytics, dedicated account",
+//     price: null,
+//     features: [
+//       "An AI chatbot that can understand your queries",
+//       "Personalized recommendations based on your preferences",
+//       "Ability to explore the app and its features without any cost",
+//     ],
+//   },
+// ];
 
 export const benefits = [
   {
@@ -311,12 +306,6 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
     url: "#",
   },
   {
